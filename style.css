@@ -1,0 +1,15 @@
+h3:hover{
+    color: crimson;
+    border: 6px dashed lightsalmon;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+h3:nth-child(n+1){
+    font-size: 30px;
+    color: cadetblue;
+}
+h3:nth-child(2n+1){
+    font-size: 50px;
+    color: chartreuse;
+}
