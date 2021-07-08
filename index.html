@@ -7,19 +7,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .swimming {
+            margin: 50px;
+        }
+
+        .swim {
+            margin: 50px;
+        }
+
+        .swim div {
+            border: 1px double palevioletred;
+            width: 200px;
+        }
+
+        .swimming div {
+            border: 1px double palevioletred;
+            width: 200px;
+        }
+
+        .dummy {
+            height: 150px;
+            width: 250px;
+            background-color: pink;
+        }
+
+        #ring_zero {
+            position: sticky;
+            right: 30px;
+            top: 100px;
+        }
+
+        #ring_sat {
+            position: relative;
+            left: 30px;
+            top: -30px;
+        }
+
+        #ring_one {
+            position: absolute;
+            right: -30px;
+            top: 0;
+        }
+
+        .swinning {
+            position: relative;
+        }
+
+        .swinning div {
+            border: 1px double palevioletred;
+            width: 200px;
+        }
+
+        #ring_tow {
+            position: absolute;
+            left: 50px;
+            top: 0;
+        }
+
+        #ring_three {
+            position: fixed;
+            left: 600px;
+            top: 80px;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 2;
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #water {
+            position: relative;
+            top: -75px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div>
-        <h3>middle size murder 1</h3>
-        <h3>middle size murder 2</h3>
-        <h3>middle size murder 3</h3>
-        <h3>middle size murder 4</h3>
-        <h3>middle size murder 5</h3>
-        <h3>middle size murder 6</h3>
-    </div>
+    <section>
+        <h1>This is the header.</h1>
+        <h1>I am learning position.</h1>
+        <h2>I have a higher position.</h2>
+    </section>
 
+    <section class="swimming">
+        <div><img src="images/boy.svg" alt=""></div>
+        <div id="ring_zero"><img src="images/ring.svg" alt=""></div>
+        <div><img src="images/water.svg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+    <br><br><br>
+    <section class="swim">
+        <div><img src="images/boy.svg" alt=""></div>
+        <div id="ring_three"><img src="images/ring.svg" alt=""></div>
+        <div><img src="images/water.svg" alt=""></div>
+    </section>
+    <br><br><br>
+    <section>
+        <h2>This is separate</h2>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+
+    <br><br><br>
+    <section class="swimming">
+        <div><img src="images/boy.svg" alt=""></div>
+        <div id="ring_sat"><img src="images/ring.svg" alt=""></div>
+        <div><img src="images/water.svg" alt=""></div>
+    </section>
+    <br><br><br>
+    <section class="swimming">
+        <div><img src="images/boy.svg" alt=""></div>
+        <div id="ring_one"><img src="images/ring.svg" alt=""></div>
+        <div><img src="images/water.svg" alt=""></div>
+    </section>
+    <br><br><br><br>
+    <section class="swinning">
+        <div><img src="images/boy.svg" alt=""></div>
+        <div id="ring_tow"><img src="images/ring.svg" alt=""></div>
+        <div><img src="images/water.svg" alt=""></div>
+    </section>
+    <br><br><br>
+    <section class="swimming">
+        <div id="boy"><img src="images/boy.svg" alt=""></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+    </section>
 
 </body>
 
